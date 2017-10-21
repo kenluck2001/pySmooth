@@ -1,19 +1,17 @@
-#Tracking the tracker: Time Series Analysis in Python From First Principles
-
-This is a source code that accompany the PyCon Canada 2017 talk which was held in November 17 - 21.
+# Tracking the tracker: Time Series Analysis in Python From First Principles
 
 The source code are original work of the author, so any resemblance to existing work on the Internet would be merely coincidental. This work is free from every form of plagarism, so the references of the research papers used in writing the codes are provided.
 
 Why would the author spend time implementing from first principle or reinventing the wheel. This was done to ensure that the audience internalize the concept described as the implementation are free of unneccessary optimizations that destroy the flow of the talk.
 
-#Run the Test
+# Run the Test
 
 
-#API
+# API
 See the examples folder.
 
 
-#Q & A
+# Q & A
 
 is the code production ready?
 You may want to offload aspects of the processing to Cython. Otherwise, it can be suitable for your needs. This is an experimental project.
@@ -27,7 +25,7 @@ Twitter:  @kenluck2001
 Linkedin: https://www.linkedin.com/in/kenluck2001/
 
 
-#References
+# References
 
 1. Castanon, D., & Karl, C. W. SC505: Stochastic processes. Retrieved 06/15, 2017, from http://www.mit.edu/people/hmsallum/GradSchool/sc505notes.pdf
 

@@ -1,8 +1,17 @@
 # Tracking the tracker: Time Series Analysis in Python From First Principles
 
+All codes are using python 2.7.
+
 The source code are original work of the author, so any resemblance to existing work on the Internet would be merely coincidental. This work is free from every form of plagarism, so the references of the research papers used in writing the codes are provided.
 
-Why would the author spend time implementing from first principle or reinventing the wheel. This was done to ensure that the audience internalize the concept described as the implementation are free of unneccessary optimizations that destroy the flow of the talk.
+A number of kalman filtering solution has been biased towards location-based problems. This talk aims to change that stereotype by describing kalman filtering in a form suited for time series analysis and other kinds of applications.
+
+Kalman filtering is a estimation technique that is suited for time series analysis (filtering, forecasting), sensor fusion, and localization. This can be used as a basis for converting static models into incremental learning models.
+
+Kalman filtering works using a two-step process of prediction and correction under some conditions can ensure that we can have a self-correcting system as sample size increases.
+
+
+Why would the author spend time implementing from first principle or reinventing the wheel. This was done to ensure that the audience internalize the concept described as the implementation are free of unneccessary optimizations that destroy the understanding of the concept.
 
 # Run the Test
 

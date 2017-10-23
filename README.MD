@@ -22,12 +22,17 @@ $ python -m tests -v
 See the examples folder.
 
 # TO DO
-⋅⋅* Set up project for patch contributions.
-⋅⋅* Make the extended kalma filter's non linear equation easy to use.
-⋅⋅* Replace first order differentiation to automatic differentiation tool like autograd.
-⋅⋅* Reorganize in an installable python package with pip.
-Robust documentation.
-⋅⋅* Ad more testcases.
+* Set up project for patch contributions.
+
+* Make the extended kalma filter's non linear equation easy to use.
+
+* Replace first order differentiation to automatic differentiation tool like autograd.
+
+* Reorganize in an installable python package with pip.
+
+* Robust documentation.
+
+* Ad more testcases.
 
 # Q & A
 

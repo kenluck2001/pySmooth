@@ -14,7 +14,7 @@ from RecursiveARIMA import RecursiveARIMA
 
 if __name__ == "__main__":
     X = np.random.rand(10,5)
-    recArimaObj = RecursiveARIMA(p=6, q=6)
+    recArimaObj = RecursiveARIMA(p=6, d=0, q=6)
     recArimaObj.init( X )
 
 

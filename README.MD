@@ -19,6 +19,12 @@ Why would the author spend time implementing from first principle or reinventing
 # API
 See the examples folder.
 
+# TO DO
+Set up project for patch contributions.
+Make the extended kalma filter's non linear equation easy to use.
+Replace first order differentiation to automatic differentiation tool like autograd.
+
+
 
 # Q & A
 

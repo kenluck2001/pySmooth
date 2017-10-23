@@ -8,9 +8,9 @@ import numpy as np
 from utils import OnlineLinearRegression
 from numpy import linalg as LA
 
-class recArima:
+class arma:
     """
-    This implementation is inspired by the description in the papers.
+    This implementation is inspired by the description in the papers. This is the arma proccess.
 
     Hamilton, J. D. (1994). Time series analysis. Chichester, United Kingdom: Princeton University Press.
 
@@ -65,7 +65,7 @@ class recArima:
 
         n, m = window.shape
 
-        mbias = np.zeros((n, self.q))
+        mbias = np.ones((n, self.q))
 
         window = np.column_stack(( window, mbias))
 
@@ -120,7 +120,7 @@ class recArima:
 class RecursiveARIMA:
 
     def __init__( self, p=1, d=0, q=1  ):
-        self.rma = recArima( p=p+d, q=q )
+        self.rma = arma( p=p+d, q=q )
 
 
     def init( self, X ):
@@ -137,16 +137,3 @@ class RecursiveARIMA:
     def predict ( self ):
         return self.rma.predict ( )
 
-
-if __name__ == '__main__':
-
-    X = np.random.rand(100,5)
-    recArimaObj = RecursiveARIMA(p=1,d=3, q=1)
-    recArimaObj.init( X )
-
-
-    for ind in range (100):
-        x = np.random.rand(1,5)
-        recArimaObj.update ( x )
-        y = recArimaObj.predict( )
-        print "y = {}".format (y)

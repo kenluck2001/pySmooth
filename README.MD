@@ -14,18 +14,20 @@ Kalman filtering works using a two-step process of prediction and correction und
 Why would the author spend time implementing from first principle or reinventing the wheel. This was done to ensure that the audience internalize the concept described as the implementation are free of unneccessary optimizations that destroy the understanding of the concept.
 
 # Run the Test
+Download code and navigate to tests folder. The run
 
+$ python -m tests -v
 
 # API
 See the examples folder.
 
 # TO DO
-Set up project for patch contributions.
-Make the extended kalma filter's non linear equation easy to use.
-Replace first order differentiation to automatic differentiation tool like autograd.
-Reorganize in an installable python package with pip.
+⋅⋅* Set up project for patch contributions.
+⋅⋅* Make the extended kalma filter's non linear equation easy to use.
+⋅⋅* Replace first order differentiation to automatic differentiation tool like autograd.
+⋅⋅* Reorganize in an installable python package with pip.
 Robust documentation.
-
+⋅⋅* Ad more testcases.
 
 # Q & A
 
